@@ -398,6 +398,9 @@ b{
         max-width: 100%;
 
     }
+    .hidden-sm{
+		display: none !important;
+	}
     .col-sm,
     .col-sm-1,
     .col-sm-2,
@@ -587,6 +590,9 @@ b{
     .row{
         margin: 0 -15px;
     }
+    .hidden-md{
+		display: none !important;
+	}
     .col-md,
     .col-md-1,
     .col-md-2,
@@ -776,6 +782,9 @@ b{
     .row{
         margin: 0 -15px;
     }
+    .hidden-lg{
+		display: none !important;
+	}
     .col-lg,
     .col-lg-1,
     .col-lg-2,
@@ -947,6 +956,11 @@ b{
     .between-lg {
         -ms-flex-pack: justify;
         justify-content: space-between;
+    }
+}
+@media (max-width: 767px){
+    .hidden-xs{
+        display: none !important;
     }
 }
 
